@@ -19,6 +19,7 @@ export const ColumnContainer = styled.div`
   border-radius: 12px;
   padding: 16px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-right: 24px;
 `
 
 export const ColumnTitle = styled.div`

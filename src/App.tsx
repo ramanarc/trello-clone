@@ -8,7 +8,6 @@ function App() {
     <>
       <ScreenContainer>
         <Column text='React now' />
-        <Column text='React now' />
       </ScreenContainer >
     </>
   )

@@ -2,7 +2,8 @@ import styled from 'styled-components'
 
 export const ScreenContainer = styled.div`
   align-items: flex-start;
-  background-color: #0F172A;
+  // background-color: #0F172A;
+  background: linear-gradient(109.6deg, rgb(20, 30, 48) 11.2%, rgb(36, 59, 85) 91.1%);
   color: #fff;
   display: flex;
   flex-direction: row;
@@ -37,4 +38,46 @@ export const CardContainer = styled.div`
   margin: 16px 0px;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+`
+
+export const AddItemButton = styled.button`
+  background-color: #581C87;
+  color: #F8FAFC;
+  border: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 12px 14px;
+  width: 100%;
+  max-width: 280px;
+  transition: background 85ms ease-in;
+  &:hover {
+    background-color: #7E22CE;
+  }
+`
+
+export const NewItemFormContainer = styled.div`
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+`
+
+export const NewItemButton = styled.button`
+  background-color: #5aac44;
+  border-radius: 3px;
+  border: none;
+  box-shadow: none;
+  color: #fff;
+  padding: 6px 12px;
+  text-aign: center;
+`
+
+export const NewItemInput = styled.input`
+  border-radius: 3px;
+  border: none;
+  margin-bottom: 0.5rem;
+  box-shadow: #091e4240 0px 1px 0px 0px;
+  padding: 0.5rem 1rem;
+  width: 100%;
 `
